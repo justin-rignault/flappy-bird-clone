@@ -8,24 +8,24 @@ const DEGREE = Math.PI / 180
 
 // load flappyimg img
 const flappyimg = new Image()
-flappyimg.src = 'https://justin-rignault.github.io/flappy-bird/img/flappyimg.png'
+flappyimg.src = 'https://rign0002.github.io/flappy-bird/img/flappyimg.png'
 
 // load sounds
 
 const scoreSound = new Audio()
-scoreSound.src = 'https://justin-rignault.github.io/flappy-bird/audio/sfx_point.wav'
+scoreSound.src = 'https://rign0002.github.io/flappy-bird/audio/sfx_point.wav'
 
 const flap = new Audio()
-flap.src = 'https://justin-rignault.github.io/flappy-bird/audio/sfx_flap.wav'
+flap.src = 'https://rign0002.github.io/flappy-bird/audio/sfx_flap.wav'
 
 const hit = new Audio()
-hit.src = 'https://justin-rignault.github.io/flappy-bird/audio/sfx_hit.wav'
+hit.src = 'https://rign0002.github.io/flappy-bird/audio/sfx_hit.wav'
 
 const swoosh = new Audio()
-swoosh.src = 'https://justin-rignault.github.io/flappy-bird/audio/sfx_swooshing.wav'
+swoosh.src = 'https://rign0002.github.io/flappy-bird/audio/sfx_swooshing.wav'
 
 const die = new Audio()
-die.src = 'https://justin-rignault.github.io/flappy-bird/audio/sfx_die.wav'
+die.src = 'https://rign0002.github.io/flappy-bird/audio/sfx_die.wav'
 // game state
 const state = {
     current: 0,
